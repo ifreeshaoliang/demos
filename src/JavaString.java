@@ -55,6 +55,8 @@ public class JavaString {
          * 码点与代码单元
          * length方法返回UTF-16编码表示的当前字符串所需的代码单元数量
          *
+         * 码点是指一个编码表中的某个字符对应的代码值。
+         *
          * 待研究！
          *
          */
@@ -65,6 +67,18 @@ public class JavaString {
         //为了避免这个问题不要使用char类型
         System.out.println(hello.codePointAt(0));
         System.out.println(hello);
+
+        /**
+         * 常用 StringAPI
+         *
+         * charAt
+         * codePointAt
+         * offsetByCodePoints
+         * compareTo 字典序比较，小为负数，相等为0，大于为正数。
+         * equals
+         * equalsIgnoreCase 忽略大小写比较是否相等
+         * boolean startWith(String prefix) 如果字符串
+         */
 
     }
 }
