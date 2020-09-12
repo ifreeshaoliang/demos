@@ -36,10 +36,11 @@ public class JavaString {
          * equals方法：判断两个字符串是否相等
          *    返回： true/false；
          */
-        if ("hello".equals(greeting))
+        if ("hello".equals(greeting)) {
             System.out.println("same: " + greeting);
-        else
+        } else {
             System.out.println("diff:" + greeting);
+        }
 
         /**
          * 空串与Null串
