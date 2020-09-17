@@ -14,7 +14,7 @@ class A{
     int a;
 }
 
-public class jvmDemo1 {
+public class JVMDemo1 {
     public static void main(String[] args) throws InterruptedException {
         method1();
         //Thread.sleep(1000);
